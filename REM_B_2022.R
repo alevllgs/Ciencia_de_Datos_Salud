@@ -10,22 +10,23 @@ library(xlsx)
 # Archivos mensuales ------------------------------------------------------
 #__________Cada mes debo cambiar las variables #fecha_mes y archivo
 
-meses <- c("01", "02", "03", "04", "05")
+meses <- c("01")
+
 # meses <- c("06", "07", "08", "09", "10", "11","12")
 for (i in meses) {
 
 fecha_mes <- paste0("2022-",i,"-01")  
-archivoBS <- paste0("H:/Mi unidad/Programacion/R/REM/2022-",i," REM serie BS.xlsx")
+archivoBS <- paste0("REM/2022-",i," REM serie BS.xlsx")
 
 # Representan las BBDD donde esta guardada la información -----------------
 
-B_IMGBBDD <- "C:/Users/control.gestion3/OneDrive/BBDD Produccion/ADyT/B_IMG BBDD.xlsx"
-B_LABBBDD <- "C:/Users/control.gestion3/OneDrive/BBDD Produccion/ADyT/B_LAB BBDD.xlsx"
-B_APBBDD <- "C:/Users/control.gestion3/OneDrive/BBDD Produccion/ADyT/B_AP BBDD.xlsx"
-B_UMTBBDD <- "C:/Users/control.gestion3/OneDrive/BBDD Produccion/ADyT/B_UMT BBDD.xlsx"
-B_QfBBDD <- "C:/Users/control.gestion3/OneDrive/BBDD Produccion/Quirurgico/B_Qf BBDD.xlsx"
-B171_QfBBDD <- "C:/Users/control.gestion3/OneDrive/BBDD Produccion/Quirurgico/B171_Qf BBDD.xlsx"
-B172_QfBBDD <- "C:/Users/control.gestion3/OneDrive/BBDD Produccion/Quirurgico/B172_Qf BBDD.xlsx"
+B_IMGBBDD <- "BBDD/B_IMG BBDD.xlsx"
+B_LABBBDD <- "BBDD/B_LAB BBDD.xlsx"
+B_APBBDD <- "BBDD/B_AP BBDD.xlsx"
+B_UMTBBDD <- "BBDD/B_UMT BBDD.xlsx"
+B_QfBBDD <- "BBDD/B_Qf BBDD.xlsx"
+B171_QfBBDD <- "BBDD/B171_Qf BBDD.xlsx"
+B172_QfBBDD <- "BBDD/B172_Qf BBDD.xlsx"
 
 # Imagenología ------------------------------------------------------
 
