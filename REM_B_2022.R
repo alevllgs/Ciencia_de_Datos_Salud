@@ -10,7 +10,7 @@ library(xlsx)
 # Archivos mensuales ------------------------------------------------------
 #__________Cada mes debo cambiar las variables #fecha_mes y archivo
 
-meses <- c("01")
+meses <- c("02")
 
 # meses <- c("06", "07", "08", "09", "10", "11","12")
 for (i in meses) {
